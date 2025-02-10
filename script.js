@@ -133,14 +133,14 @@ btnHold.addEventListener('click', function () {
     document.getElementById(`score--${activePlayer}`).textContent =
       scores[activePlayer];
 
-    // Check if player's score is >= 100
-    if (scores[activePlayer] >= 10) {
+    // Check if player's score is >= 50
+    if (scores[activePlayer] >= 50) {
       dice.classList.add('hidden');
       playing = false;
 
       document.getElementById(`name--${activePlayer}`).textContent = `Player ${
         activePlayer + 1
-      } Win`;
+      } Win 🎉🎉🎉`;
 
       document
         .querySelector(`.player--${activePlayer}`)
