@@ -53,49 +53,69 @@ Pig Game is a two-player dice game. The goal is to reach the highest score by ro
 ## Cách hoạt động (How It Works)
 
 - **Lăn xúc xắc** để tạo số ngẫu nhiên và hiển thị kết quả.
+
 - **Chuyển lượt chơi** khi người chơi lăn được số 1 hoặc nhấn "Hold".
+
 - **Kiểm tra điều kiện thắng** khi tổng điểm đạt 50.
+
 - **Bắt đầu lại** khi người chơi nhấn "New Game".
 
 - **Rolling the dice** generates a random number and displays the result.
+
 - **Switching turns** when a player rolls a 1 or presses "Hold."
+
 - **Checking the win condition** when a player's total score reaches 50.
+
 - **Restarting the game** when "New Game" is pressed.
 
 ## Cải tiến đề xuất (Suggested Improvements)
 
 - **Cho phép người chơi đặt điểm thắng** thay vì mặc định 50.
+
 - **Thêm hiệu ứng động** khi xúc xắc được lăn.
+
 - **Thêm âm thanh** khi người chơi thắng hoặc mất lượt.
+
 - **Hỗ trợ nhiều người chơi hơn** bằng cách mở rộng logic.
 
 - **Allow players to set a custom winning score** instead of a fixed 50.
+
 - **Add animations** for rolling the dice.
+
 - **Include sound effects** when a player wins or loses a turn.
+
 - **Support more players** by extending the game logic.
 
 ## Công nghệ sử dụng (Technologies Used)
 
 - **HTML**: Giao diện người dùng.
+
 - **CSS**: Thiết kế giao diện.
+
 - **JavaScript**: Điều khiển logic trò chơi.
 
 - **HTML**: User interface.
+
 - **CSS**: Styling.
+
 - **JavaScript**: Game logic handling.
 
 ## Cách chạy trò chơi (How to Run the Game)
 
 1. Clone repository về máy:
+
    ```bash
    git clone https://github.com/your-username/pig-game.git
    ```
+
 2. Mở file `index.html` trên trình duyệt.
 
 3. Clone the repository:
+
    ```bash
    git clone https://github.com/your-username/pig-game.git
    ```
+
 4. Open `index.html` in a browser.
 
 Hoặc bạn có thể chơi trực tiếp bằng cách nhấn vào link trong phần mô tả của repository trên GitHub.
